@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DelayTimer.cs" />
+    <Compile Include="Assets\Scripts\destroyObj.cs" />
     <Compile Include="Assets\Scripts\gameOver.cs" />
+    <Compile Include="Assets\Scripts\mouseOverEffect.cs" />
     <Compile Include="Assets\Scripts\move.cs" />
     <Compile Include="Assets\Scripts\scoreAdd.cs" />
     <Compile Include="Assets\Scripts\script.cs" />

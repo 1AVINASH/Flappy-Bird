@@ -10,9 +10,13 @@ public class move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 1;
+        
+        //Destroy(gameObject);
     }
-
+    public void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
     // Update is called once per frame
     void Update()
     {
